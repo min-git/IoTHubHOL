@@ -16,9 +16,9 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 - .NET Core 설치
 - Azure IoT Explorer 설치
 
-# Lab 1 - IoT Hub 리소스 생성
+# Lab 1 - IoT Hub 리소스 생성 및 디바이스 
 
-***리소스 그룹 생성***
+***Lab 1-1 리소스 그룹 생성***
 
 실습에 필요한 리소스들을 그룹핑하여 관리할 수 있는 리소스 그룹을 생성합니다.
 
@@ -30,7 +30,7 @@ Azure 포털에서 리소스 만들기를 선택합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139613692-a3daece0-0ed6-42aa-a476-3634ce5b7b16.png)
 
-***IoT Hub 생성***
+***Lab 1-2 IoT Hub 생성***
 
 Home(홈)을 선택하여 기본화면에서 리소스 만들기를 선택합니다.
 
@@ -54,7 +54,7 @@ IoT Hub 리소스가 생성되더라도 정상화에 약간의 지연이 있을 
 
 ![image](https://user-images.githubusercontent.com/14192817/139613939-f7664cc2-f483-43ba-b4b3-2af8db50289b.png)
 
-***IoT Hub에 디바이스 등록***
+***Lab 1-3 IoT Hub에 디바이스 등록***
 
 IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”를 선택하여 디바이스 등록을 진행합니다.
 
@@ -77,7 +77,7 @@ IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”
 ![image](https://user-images.githubusercontent.com/14192817/139614020-c2b58dfe-d43d-481a-a606-831398aec220.png)
 
 
-***Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동***
+***Lab 1-4 Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동***
 
 Git에 등록된 샘플 프로그램을 로컬PC에 다운로드 및 실행하여 IoT Hub에 텔레메리트 데이터를 전송합니다.
 
@@ -123,7 +123,7 @@ dotnet run --DeviceSecurityType="connectionString" --PrimaryConnectionString="�
 
 ![image](https://user-images.githubusercontent.com/14192817/139614308-55491af4-eb9d-4e4c-8acb-9eb808481b5d.png)
 
-***Azure IoT Explorer를 IoT Hub 텔레메트리 실시간 모니터링***
+***Lab 1-5 Azure IoT Explorer를 IoT Hub 텔레메트리 실시간 모니터링***
 
 Azure IoT Explorer를 통해 디바이스에서 IoT Hub로 전송되는 실시간 텔레메트리 데이터를 모니터링 합니다.
 
