@@ -79,6 +79,10 @@ IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”
 
 ***Lab 1-4 Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동***
 
+본 실습에서는 C#을 이용하여 디바이스 샘플 프로그램을 구동 합니다.
+
+C/NodeJS/Python/Java 언어 샘플 실습은 [기술 문서](https://docs.microsoft.com/ko-kr/azure/iot-develop/quickstart-send-telemetry-iot-hub?toc=%2Fazure%2Fiot-hub%2Ftoc.json&bc=%2Fazure%2Fiot-hub%2Fbreadcrumb%2Ftoc.json&pivots=programming-language-nodejs) 참조하시기 바랍니다.
+
 Git에 등록된 샘플 프로그램을 로컬PC에 다운로드 및 실행하여 IoT Hub에 텔레메리트 데이터를 전송합니다.
 
 로컬 PC에서 프로그램 코드를 저장할 디렉토리를 생성합니다.
