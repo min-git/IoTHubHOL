@@ -9,6 +9,7 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 3. Visual Studio Code를 통해 샘플 디바이스 코드로 텔레메트리 데이터 IoT Hub로 전송
 4. Azure IoT Explorer를 통해 IoT Hub로 전송되는 텔레메트리 데이터 실시간 모니터링
 
+
 # 사전 준비사항
 - [Git 설치](https://git-scm.com/downloads)
 - [Visual Studio Code 설치](https://code.visualstudio.com/)
@@ -16,9 +17,11 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 - [.NET Core 설치](https://dotnet.microsoft.com/download/dotnet)
 - [Azure IoT Explorer 설치](https://github.com/Azure/azure-iot-explorer/releases)
 
+
 # 참조 기술문서
 - [IoT Hub 설명서](https://docs.microsoft.com/ko-kr/azure/iot-hub/)
 - [MS Learn 교육사이트](https://docs.microsoft.com/ko-kr/learn/browse/?expanded=azure%2Cwindows&products=azure-iot%2Cazure-iot-hub)
+
 
 # Lab 1 - IoT Hub 리소스 생성 및 디바이스 
 
