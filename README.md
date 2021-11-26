@@ -100,9 +100,25 @@ CMD 창에서 생성된 디렉토리로 이동합니다.
 
 명령어를 통해서 Git에 저장된 샘플 코드를 로컬 디렉토리로 다운로드 합니다.
 
+```bash
+git clone https://github.com/Azure-Samples/azure-iot-samples-csharp.git
+ ```
+
 ![image](https://user-images.githubusercontent.com/14192817/139614164-301a8e2e-9007-4271-bea7-38cd1e817790.png)
 
 다운로드하여 생성된 azure-iot-sample-csharp 디렉토리로 이동합니다.
+
+Windows
+
+```bash
+cd azure-iot-samples-csharp\iot-hub\Samples\device\PnpDeviceSamples\TemperatureController
+ ```
+
+Linux 
+
+```bash
+cd azure-iot-samples-csharp\iot-hub\Samples\device\PnpDeviceSamples\TemperatureController
+ ```
 
 Visual Studio Code를 실행합니다.
 
