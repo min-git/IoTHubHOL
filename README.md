@@ -111,13 +111,13 @@ git clone https://github.com/Azure-Samples/azure-iot-samples-csharp.git
 Windows
 
 ```bash
-cd azure-iot-samples-csharp\iot-hub\Samples\device\PnpDeviceSamples\TemperatureController
+cd azure-iot-samples-csharp
  ```
 
 Linux 
 
 ```bash
-cd azure-iot-samples-csharp\iot-hub\Samples\device\PnpDeviceSamples\TemperatureController
+cd azure-iot-samples-csharp
  ```
 
 Visual Studio Code를 실행합니다.
