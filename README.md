@@ -14,7 +14,7 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 - [Git 설치](https://git-scm.com/downloads)
 - [Visual Studio Code 설치](https://code.visualstudio.com/)
 - [Visual Studio Code Extension 설치 (C#)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-- [.NET Core 설치](https://dotnet.microsoft.com/download/dotnet)
+- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
 - [Azure IoT Explorer 설치](https://github.com/Azure/azure-iot-explorer/releases)
 
 
