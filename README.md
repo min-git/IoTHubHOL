@@ -1,5 +1,6 @@
 # IoTHubHOL
 Azure IoT Hub을 활용한 아키텍처 구성을 위한 hands-on lap을 실습합니다. [Azure IoT 아키텍처 참조](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/iot)
+
 Azure Portal상에 IoT Hub를 생성하여 디바이스 생성 및 연동 합니다.
 VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트리 데이터를 생성하여 IoT Hub에 등록된 디바이스와 연동 합니다.
 
