@@ -104,7 +104,7 @@ CMD 창에서 생성된 디렉토리로 이동합니다.
 git clone https://github.com/Azure/azure-iot-sdk-node
  ```
 
-![image](https://user-images.githubusercontent.com/14192817/139614164-301a8e2e-9007-4271-bea7-38cd1e817790.png)
+![image](img/iothub_hol01.png)
 
 다운로드하여 생성된 azure-iot-sdk-node 디렉토리로 이동합니다.
 
@@ -122,13 +122,13 @@ cd azure-iot-sdk-node
 
 Visual Studio Code를 실행합니다.
 
-![image](https://user-images.githubusercontent.com/14192817/139614174-5c778259-a8c7-4632-84bc-97553baa04cf.png)
+![image](img/iothub_hol02.png)
 
-![image](https://user-images.githubusercontent.com/14192817/139614179-38d3c811-91c5-4766-95eb-99940acad1d6.png)
+![image](img/iothub_hol03.png)
 
 본 실습에서는 azure-iot-sdk-node/device/samples/javascript 디렉토리 하위의 샘플 소스코드를 이용하여 실습합니다.
 
-![image](https://user-images.githubusercontent.com/14192817/139614193-41df0ac6-bf09-4788-92be-19d2136b245b.png)
+![image](img/iothub_hol04.png)
 
 Terminal 메뉴에서 New Terminal을 선택하여 터미널 창을 실행합니다.
 
@@ -136,7 +136,7 @@ Terminal 메뉴에서 New Terminal을 선택하여 터미널 창을 실행합니
 
 하단의 Terminal 창에서 실습을 진행할 샘플 코드가 위치한 “azure-iot-sdk-node/device/samples/javascript” 디렉토리로 이동합니다.
 
-![image](https://user-images.githubusercontent.com/14192817/139614233-440f9e56-d963-4bae-a091-882ae2377418.png)
+![image](img/iothub_hol05.png)
 
 Node.js 를 설치합니다.
 
@@ -144,7 +144,7 @@ Node.js 를 설치합니다.
 npm install
  ```
 
-![image]()
+![image](img/iothub_hol06.png)
 
 아래 명령어를 참조하여 샘플 프로그램을 실행합니다.
 
@@ -169,7 +169,7 @@ export IOTHUB_DEVICE_SECURITY_TYPE="connectionString"
  ```
 
 예시) 
-![image](https://user-images.githubusercontent.com/14192817/139614308-55491af4-eb9d-4e4c-8acb-9eb808481b5d.png)
+![image](img/iothub_hol07.png)
 
 ## Lab 1-5 Azure IoT Explorer를 IoT Hub 텔레메트리 실시간 모니터링 ##
 
