@@ -14,8 +14,6 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 # 사전 준비사항
 - [Git 설치](https://git-scm.com/downloads)
 - [Visual Studio Code 설치](https://code.visualstudio.com/)
-DEL- [Visual Studio Code Extension 설치 (C#)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-DEL- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
 - [Node.js ver. 12+ 설치](https://dotnet.microsoft.com/download/dotnet)
 - [Azure IoT Explorer 설치](https://github.com/Azure/azure-iot-explorer/releases)
 
@@ -33,14 +31,14 @@ DEL- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
 
 Azure 포털에서 리소스 만들기를 선택합니다.
 
-![image](https://user-images.githubusercontent.com/14192817/139613676-977b31cc-4932-4a25-864b-b219e9230fb0.png)
+![image](img/iothub_hol001.png)
 
 검색창에 Resource Group을 입력하여 선택합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139613692-a3daece0-0ed6-42aa-a476-3634ce5b7b16.png)
 
 
-**Lab 1-2 IoT Hub 생성**
+## Lab 1-2 IoT Hub 생성 ##
 
 Home(홈)을 선택하여 기본화면에서 리소스 만들기를 선택합니다.
 
@@ -64,7 +62,7 @@ IoT Hub 리소스가 생성되더라도 정상화에 약간의 지연이 있을 
 
 ![image](https://user-images.githubusercontent.com/14192817/139613939-f7664cc2-f483-43ba-b4b3-2af8db50289b.png)
 
-**Lab 1-3 IoT Hub에 디바이스 등록**
+## Lab 1-3 IoT Hub에 디바이스 등록 ##
 
 IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”를 선택하여 디바이스 등록을 진행합니다.
 
@@ -87,11 +85,11 @@ IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”
 ![image](https://user-images.githubusercontent.com/14192817/139614020-c2b58dfe-d43d-481a-a606-831398aec220.png)
 
 
-**Lab 1-4 Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동**
+## Lab 1-4 Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동 ##
 
-본 실습에서는 C#을 이용하여 디바이스 샘플 프로그램을 구동 합니다.
+본 실습에서는 Node.js를 이용하여 디바이스 샘플 프로그램을 구동 합니다.
 
-C/NodeJS/Python/Java 언어 샘플 실습은 [기술 문서](https://docs.microsoft.com/ko-kr/azure/iot-develop/quickstart-send-telemetry-iot-hub?toc=%2Fazure%2Fiot-hub%2Ftoc.json&bc=%2Fazure%2Fiot-hub%2Fbreadcrumb%2Ftoc.json&pivots=programming-language-nodejs) 참조하시기 바랍니다.
+C/C#/NodeJS/Python/Java 언어 샘플 실습은 [기술 문서](https://docs.microsoft.com/ko-kr/azure/iot-develop/quickstart-send-telemetry-iot-hub?toc=%2Fazure%2Fiot-hub%2Ftoc.json&bc=%2Fazure%2Fiot-hub%2Fbreadcrumb%2Ftoc.json&pivots=programming-language-nodejs) 참조하시기 바랍니다.
 
 Git에 등록된 샘플 프로그램을 로컬PC에 다운로드 및 실행하여 IoT Hub에 텔레메리트 데이터를 전송합니다.
 
@@ -104,23 +102,23 @@ CMD 창에서 생성된 디렉토리로 이동합니다.
 명령어를 통해서 Git에 저장된 샘플 코드를 로컬 디렉토리로 다운로드 합니다.
 
 ```bash
-git clone https://github.com/Azure/azure-iot-sdk-csharp.git
+git clone https://github.com/Azure/azure-iot-sdk-node
  ```
 
 ![image](https://user-images.githubusercontent.com/14192817/139614164-301a8e2e-9007-4271-bea7-38cd1e817790.png)
 
-다운로드하여 생성된 azure-iot-sdk-csharp 디렉토리로 이동합니다.
+다운로드하여 생성된 azure-iot-sdk-node 디렉토리로 이동합니다.
 
 Windows
 
 ```bash
-cd azure-iot-sdk-csharp
+cd azure-iot-sdk-node
  ```
 
 Linux 
 
 ```bash
-cd azure-iot-sdk-csharp
+cd azure-iot-sdk-node
  ```
 
 Visual Studio Code를 실행합니다.
@@ -129,7 +127,7 @@ Visual Studio Code를 실행합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139614179-38d3c811-91c5-4766-95eb-99940acad1d6.png)
 
-본 실습에서는 iothub/device/samples/solutions/PnpDeviceSamples/TemperatureController 디렉토리 하위의 샘플 소스코드를 이용하여 실습합니다.
+본 실습에서는 azure-iot-sdk-node/device/samples/javascript 디렉토리 하위의 샘플 소스코드를 이용하여 실습합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139614193-41df0ac6-bf09-4788-92be-19d2136b245b.png)
 
@@ -137,23 +135,44 @@ Terminal 메뉴에서 New Terminal을 선택하여 터미널 창을 실행합니
 
 ![image](https://user-images.githubusercontent.com/14192817/139614205-e5aa14fb-90ce-483d-aa98-65394e694770.png)
 
-하단의 Terminal 창에서 실습을 진행할 샘플 코드가 위치한 “TemperatureController” 디렉토리로 이동합니다.
+하단의 Terminal 창에서 실습을 진행할 샘플 코드가 위치한 “azure-iot-sdk-node/device/samples/javascript” 디렉토리로 이동합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139614233-440f9e56-d963-4bae-a091-882ae2377418.png)
+
+Node.js 를 설치합니다.
+
+```bash
+npm install
+ ```
+
+![image]()
 
 아래 명령어를 참조하여 샘플 프로그램을 실행합니다.
 
 샘플 프로그램에서는 텔레메트리 데이터를 임의로 생성하여 IoT Hub로 전송합니다.
 
+Window CMD
 ```bash
-dotnet run --DeviceSecurityType="connectionString" --PrimaryConnectionString="메모장에 저장된 IoT Hub 연결 문자열 정보 입력"
+set IOTHUB_DEVICE_CONNECTION_STRING="메모장에 저장된 IoT Hub 연결 문자열 정보 입력"
+set IOTHUB_DEVICE_SECURITY_TYPE=connectionString
+ ```
+ 
+Power Shell
+```bash
+$env:IOTHUB_DEVICE_CONNECTION_STRING='메모장에 저장된 IoT Hub 연결 문자열 정보 입력'
+$env:IOTHUB_DEVICE_SECURITY_TYPE='connectionString'
+ ```
+ 
+Bash
+```bash
+export IOTHUB_DEVICE_CONNECTION_STRING="메모장에 저장된 IoT Hub 연결 문자열 정보 입력"
+export IOTHUB_DEVICE_SECURITY_TYPE="connectionString"
  ```
 
-예시) dotnet run --DeviceSecurityType="connectionString" --PrimaryConnectionString="HostName=iothub-hol-km1101.azure-devices.net;DeviceId=device001;SharedAccessKey=???????????????????????????????"
-
+예시) 
 ![image](https://user-images.githubusercontent.com/14192817/139614308-55491af4-eb9d-4e4c-8acb-9eb808481b5d.png)
 
-***Lab 1-5 Azure IoT Explorer를 IoT Hub 텔레메트리 실시간 모니터링***
+## Lab 1-5 Azure IoT Explorer를 IoT Hub 텔레메트리 실시간 모니터링 ##
 
 Azure IoT Explorer를 통해 디바이스에서 IoT Hub로 전송되는 실시간 텔레메트리 데이터를 모니터링 합니다.
 
