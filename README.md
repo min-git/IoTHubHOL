@@ -14,8 +14,9 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 # 사전 준비사항
 - [Git 설치](https://git-scm.com/downloads)
 - [Visual Studio Code 설치](https://code.visualstudio.com/)
-- [Visual Studio Code Extension 설치 (C#)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
+DEL- [Visual Studio Code Extension 설치 (C#)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+DEL- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
+- [Node.js ver. 12+ 설치](https://dotnet.microsoft.com/download/dotnet)
 - [Azure IoT Explorer 설치](https://github.com/Azure/azure-iot-explorer/releases)
 
 
@@ -26,7 +27,7 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 
 # Lab 1 - IoT Hub 리소스 생성 및 디바이스 
 
-***Lab 1-1 리소스 그룹 생성***
+**Lab 1-1 리소스 그룹 생성**
 
 실습에 필요한 리소스들을 그룹핑하여 관리할 수 있는 리소스 그룹을 생성합니다.
 
@@ -103,23 +104,23 @@ CMD 창에서 생성된 디렉토리로 이동합니다.
 명령어를 통해서 Git에 저장된 샘플 코드를 로컬 디렉토리로 다운로드 합니다.
 
 ```bash
-git clone https://github.com/Azure-Samples/azure-iot-samples-csharp.git
+git clone https://github.com/Azure/azure-iot-sdk-csharp.git
  ```
 
 ![image](https://user-images.githubusercontent.com/14192817/139614164-301a8e2e-9007-4271-bea7-38cd1e817790.png)
 
-다운로드하여 생성된 azure-iot-sample-csharp 디렉토리로 이동합니다.
+다운로드하여 생성된 azure-iot-sdk-csharp 디렉토리로 이동합니다.
 
 Windows
 
 ```bash
-cd azure-iot-samples-csharp
+cd azure-iot-sdk-csharp
  ```
 
 Linux 
 
 ```bash
-cd azure-iot-samples-csharp
+cd azure-iot-sdk-csharp
  ```
 
 Visual Studio Code를 실행합니다.
@@ -128,7 +129,7 @@ Visual Studio Code를 실행합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139614179-38d3c811-91c5-4766-95eb-99940acad1d6.png)
 
-본 실습에서는 iot-hub>Samples>device>PnpDeviceSamples>TemperatureController 디렉토리 하위의 샘플 소스코드를 이용하여 실습합니다.
+본 실습에서는 iothub/device/samples/solutions/PnpDeviceSamples/TemperatureController 디렉토리 하위의 샘플 소스코드를 이용하여 실습합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139614193-41df0ac6-bf09-4788-92be-19d2136b245b.png)
 
