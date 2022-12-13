@@ -28,10 +28,13 @@ VSCode를 활용하여 디바이스 샘플 소스코드를 통해 텔레메트�
 ## Lab 1-1 리소스 그룹 생성 ##
 
 실습에 필요한 리소스들을 그룹핑하여 관리할 수 있는 리소스 그룹을 생성합니다.
+
 Azure 포털에서 리소스 만들기를 선택합니다.
+
 ![image](img/iothub_hol001.png)
 
 검색창에 Resource Group을 입력하여 선택합니다.
+
 ![image](https://user-images.githubusercontent.com/14192817/139613692-a3daece0-0ed6-42aa-a476-3634ce5b7b16.png)
 
 ## Lab 1-2 IoT Hub 생성 ##
