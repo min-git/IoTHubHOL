@@ -27,7 +27,7 @@ DEL- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
 
 # Lab 1 - IoT Hub 리소스 생성 및 디바이스 
 
-**Lab 1-1 리소스 그룹 생성**
+##Lab 1-1 리소스 그룹 생성##
 
 실습에 필요한 리소스들을 그룹핑하여 관리할 수 있는 리소스 그룹을 생성합니다.
 
@@ -40,7 +40,7 @@ Azure 포털에서 리소스 만들기를 선택합니다.
 ![image](https://user-images.githubusercontent.com/14192817/139613692-a3daece0-0ed6-42aa-a476-3634ce5b7b16.png)
 
 
-***Lab 1-2 IoT Hub 생성***
+**Lab 1-2 IoT Hub 생성**
 
 Home(홈)을 선택하여 기본화면에서 리소스 만들기를 선택합니다.
 
@@ -64,7 +64,7 @@ IoT Hub 리소스가 생성되더라도 정상화에 약간의 지연이 있을 
 
 ![image](https://user-images.githubusercontent.com/14192817/139613939-f7664cc2-f483-43ba-b4b3-2af8db50289b.png)
 
-***Lab 1-3 IoT Hub에 디바이스 등록***
+**Lab 1-3 IoT Hub에 디바이스 등록**
 
 IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”를 선택하여 디바이스 등록을 진행합니다.
 
@@ -87,7 +87,7 @@ IoT Hub 화면에서 Devices 항목을 선택한 후 “+ 디바이스 추가”
 ![image](https://user-images.githubusercontent.com/14192817/139614020-c2b58dfe-d43d-481a-a606-831398aec220.png)
 
 
-***Lab 1-4 Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동***
+**Lab 1-4 Visual Studio Code를 활용하여 디바이스 샘플 프로그램 구동**
 
 본 실습에서는 C#을 이용하여 디바이스 샘플 프로그램을 구동 합니다.
 
