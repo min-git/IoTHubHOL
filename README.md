@@ -27,7 +27,7 @@ DEL- [.NET 설치](https://dotnet.microsoft.com/download/dotnet)
 
 # Lab 1 - IoT Hub 리소스 생성 및 디바이스 
 
-##Lab 1-1 리소스 그룹 생성##
+## Lab 1-1 리소스 그룹 생성 ##
 
 실습에 필요한 리소스들을 그룹핑하여 관리할 수 있는 리소스 그룹을 생성합니다.
 
