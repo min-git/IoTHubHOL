@@ -38,6 +38,8 @@ Azure 포털에서 리소스 만들기를 선택합니다.
 ![image](https://user-images.githubusercontent.com/14192817/139613692-a3daece0-0ed6-42aa-a476-3634ce5b7b16.png)
 
 
+
+
 ## Lab 1-2 IoT Hub 생성 ##
 
 Home(홈)을 선택하여 기본화면에서 리소스 만들기를 선택합니다.
